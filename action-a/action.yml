@@ -1,0 +1,17 @@
+name: "Greet someone"
+description: "greet someone"
+author: "taseer94@gmail.com"
+
+inputs:
+  MY_NAME:
+    description: "Name of the person"
+    required: true
+    default: "World"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
